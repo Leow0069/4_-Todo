@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<link>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ToDo List</title>
 
     <script defer src="./index.js"></script>
-    <link href="index.css">
+    <link rel="stylesheet" href="./index.css"/>
 </head>
 <body>
     <div>
-        <ul class="js-todo-list">
-
-        </ul>
+        <ul class="js-todo-list"></ul>
+        <form class="js-form">
+            <input autofocus type="search" class="js-todo-input" aria-label="Enter a new todo item" 
+                    placeholder="E.g. Build a web app" />
+        </form>
     </div>
-    <form class="js-form">
-        <input autofocus type="search" class="js-todo-input" aria-label="Enter a new todo item" placeholder="E.g. Build a web app" />
-    </form>
 </body>
 </html>
